@@ -8,7 +8,7 @@ const App = () => {
   // تابع ایجاد دایره
   const createCircle = (event) => {
     const newCircles = [];
-    const circleCount = Math.floor(Math.random() * 5) + 5; // تعداد تصادفی دایره‌ها بین 5 تا 10
+    const circleCount = Math.floor(Math.random() * 15) + 5; // تعداد تصادفی دایره‌ها بین 5 تا 10
     const buttonRect = event.target.getBoundingClientRect(); // موقعیت دکمه در صفحه
 
     for (let i = 0; i < circleCount; i++) {
